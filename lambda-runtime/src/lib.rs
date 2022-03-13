@@ -25,7 +25,7 @@ mod types;
 
 use requests::{EventCompletionRequest, EventErrorRequest, IntoRequest, NextEventRequest};
 use types::Diagnostic;
-pub use types::{Context, LambdaEvent};
+pub use types::*;
 
 /// Error type that lambdas may result in
 pub type Error = lambda_runtime_api_client::Error;
